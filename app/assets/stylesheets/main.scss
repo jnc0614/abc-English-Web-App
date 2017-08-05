@@ -19,6 +19,22 @@ button {
 	margin: auto;
 }
 
+#draggable,
+#draggable1,
+#draggable2,
+#draggable3,
+#draggable4,
+#draggable5,
+#draggable6,
+#snaptarget,
+#snaptarget1,
+#snaptarget2,
+#snaptarget3,
+#snaptarget4,
+#snaptarget5, {
+	background-color: grey;
+}
+
 .previous-page {
 	margin: 10px 5px;
 	position: absolute;
@@ -41,3 +57,5 @@ button {
 	border-width: 237px 0 237px 91px;
 	border-color: transparent transparent transparent #007bff;
 }
+
+
