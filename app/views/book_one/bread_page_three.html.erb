@@ -1,12 +1,10 @@
-<img src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/imgs/bread-crop-700_large.jpg">
-<p>bread</p>
+<img id="center-image" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/imgs/bread-crop-700_large.jpg">
+<button>bread</button>
 
-<audio controls>
-  <source src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/audio/bread.mp3" type="audio/ogg">
-</audio>
+<audio id="sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/audio/bread.mp3"></audio>
 
-<%= link_to "Previous Page", book_one_beef_page_two_path%>
+<%= link_to "Previous Page", book_one_beef_page_two_path, method: :get%>
 
-<%= link_to "Next Page", book_one_cafeteria_page_four_path%>
+<%= link_to "Next Page", book_one_cafeteria_page_four_path, method: :get%>
 
 

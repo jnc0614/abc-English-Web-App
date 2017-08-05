@@ -1,0 +1,43 @@
+
+
+body {
+	background-color: orange;
+}
+
+
+
+button {
+	display: block;
+	margin: 20px auto;
+	font-size: 45px;
+}
+
+
+
+#center-image {
+	display: block;
+	margin: auto;
+}
+
+.previous-page {
+	margin: 10px 5px;
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 237px 91px 237px 0;
+	border-color: transparent #007bff transparent transparent;
+}
+
+
+.next-page {
+	margin: 10px 5px;
+	position: absolute;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 237px 0 237px 91px;
+	border-color: transparent transparent transparent #007bff;
+}
