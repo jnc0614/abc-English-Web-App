@@ -3,9 +3,9 @@
 $ ->
 
 	$( "#draggable" ).draggable({ snap: "#snaptarget" });
-	$( "#draggable1" ).draggable({ snap: "#snaptarget1" });
-	$( "#draggable2" ).draggable({ snap: "#snaptarget2" });
-	$( "#draggable3" ).draggable({ snap: "#snaptarget3" });
+	$( "#draggable-1" ).draggable({ snap: "#snaptarget-1" });
+	$( "#draggable-2" ).draggable({ snap: "#snaptarget-2" });
+	$( "#draggable-3" ).draggable({ snap: "#snaptarget-3" });
 
 
 
