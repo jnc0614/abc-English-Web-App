@@ -1,9 +1,17 @@
-<%= link_to "", places_read_downtown_page_four_path, class: "previous-page", method: :get %>
+<div class="container-fluid">
+    <div class="row">
 
-<img id="center-image" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-2/imgs/home-crop-700_large.jpg">
+<%= link_to "", places_read_downtown_page_four_path, class: "previous-page col-md-2", method: :get %>
+<div class="col-md-1"></div>
+<img class="col-md-6" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-2/imgs/home-crop-700_large.jpg">
+<div class="col-md-1"></div>
+<%= link_to '', places_read_mosque_page_six_path, class: "next-page col-md-2", method: :get %>
+</div>
+    <div class="row">
+        <div class="col-md-5"></div>
+        <button class="col-md-2">home</button>
+        <div class="col-md-5"></div>
+    </div>
+</div>
+<audio id="sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-2/audio/home.mp3"></audio>
 
-<button></button>
-
-<audio id="sound" src=""></audio>
-
-<%= link_to '', places_read_mosque_page_six_path, class: "next-page", method: :get %>

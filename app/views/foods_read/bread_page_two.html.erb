@@ -1,12 +1,16 @@
-<%= link_to "", foods_read_beef_page_one_path, class: "previous-page", method: :get %>
+<div class="container-fluid">
+    <div class="row">
 
-<img id="center-image" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/imgs/bread-crop-700_large.jpg">
-<button>bread</button>
-
+        <%= link_to "", foods_read_beef_page_one_path, class: "previous-page col-md-2", method: :get %>
+            <div class="col-md-1"></div>
+            <img class="col-md-6" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/imgs/bread-crop-700_large.jpg">
+            <div class="col-md-1"></div>
+            <%= link_to "", foods_read_cafeteria_page_three_path, class: "next-page col-md-2", method: :get   %>
+    </div>
+    <div class="row">
+        <div class="col-md-5"></div>
+        <button class="col-md-2">bread</button>
+        <div class="col-md-5"></div>
+    </div>
+</div>
 <audio id="sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/audio/bread.mp3"></audio>
-
-
-
-<%= link_to "", foods_read_cafeteria_page_three_path, class: "next-page", method: :get   %>
-
-

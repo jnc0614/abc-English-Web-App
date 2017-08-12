@@ -1,50 +1,71 @@
-<%= link_to "", root_path, class: "previous-page", method: :get %>
 
-<img id="center-image" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/imgs/chicken-crop-700_large.jpg">
+<div class="container-fluid">
+<div class="row">
+		<%= link_to "", root_path, class: "previous-page col-md-2", method: :get %>
 
-<audio id="sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/audio/do-you-want-chicken%3F.mp3"></audio>
+		<div class="col-md-1"></div>
 
-<div>
-	<div id="snaptarget">
-		<p>Do</p>
+		<img class="col-md-6 center-block" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/imgs/chicken-crop-700_large.jpg">
+
+		<div class="col-md-1"></div>
+	
+		<div class="col-md-2"></div>
+		</div>
+	<audio id="sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/audio/do-you-want-chicken%3F.mp3"></audio>
+
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div id="droppable" class="col-md-1 do">
+			<p>Do</p>
+		</div>
+
+		<div id="droppable-1" class="col-md-1 you">
+			<p>you</p>
+		</div>
+
+		<div id="droppable-2" class="col-md-2 want">
+			<p>want</p>
+		</div>
+
+		<div id="droppable-3" class="col-md-2 chicken">
+			<p>chicken</p>
+		</div>
+
+		<div id="droppable-4"  class="col-md-1 question-parent">
+			<p class="question">?</p>
+		</div>
+		<div class="col-md-3"></div>
+
 	</div>
 
-	<div id="snaptarget-1">
-		<p>you</p>
+
+	<div>
+		<div id="draggable" class="random-position">
+			<p>Do</p>
+		</div>
+		<audio id="draggable-sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/shared-audio/do.mp3"></audio>
+
+		<div id="draggable-1" class="random-position">
+			<p>you</p>
+		</div>
+		<audio id="draggable-sound-1" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/shared-audio/you.mp3"></audio>
+
+		<div id="draggable-2" class="random-position">
+			<p>want</p>
+		</div>
+		<audio id="draggable-sound-2" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/shared-audio/want.mp3"></audio>
+
+
+		<div id="draggable-3" class="random-position">
+			<p>chicken</p>
+		</div>
+		<audio id="draggable-sound-3" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/audio/chicken.mp3"></audio>
+
+		<div id="draggable-4" class="random-position">
+			<p>?</p>
+		</div>
 	</div>
 
-	<div id="snaptarget-2">
-		<p>want</p>
-	</div>
+	
 
-	<div id="snaptarget-3">
-		<p>chicken?</p>
-	</div>
 </div>
-
-
-<div>
-	<div id="draggable" class="draggable random-position">
-		<p>Do</p>
-	</div>
-	<audio id="draggable-sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/shared-audio/do.mp3"></audio>
-
-	<div id="draggable-1" class="draggable random-position">
-		<p>you</p>
-	</div>
-	<audio id="draggable-sound-1" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/shared-audio/you.mp3"></audio>
-
-	<div id="draggable-2" class="draggable random-position">
-		<p>want</p>
-	</div>
-	<audio if="draggable-sound-2" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/shared-audio/want.mp3"></audio>
-
-
-	<div id="draggable-3" class="draggable random-position">
-		<p>chicken?</p>
-	</div>
-	<audio if="draggable-sound-3" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-1/audio/chicken.mp3"></audio>
-</div>
-
-<%= link_to "", foods_match_want_potatoes_path, class: "next-page", method: :get %>
-

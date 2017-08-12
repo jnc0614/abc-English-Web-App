@@ -1,9 +1,17 @@
-<%= link_to "", actions_read_sleep_page_four_path, class: "previous-page", method: :get %>
+<div class="container-fluid">
+    <div class="row">
 
-<img id="center-image" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-actions/imgs/visit-crop2-700_large.jpg">
+<%= link_to "", actions_read_sleep_page_four_path, class: "previous-page col-md-2", method: :get %>
+<div class="col-md-1"></div>
+<img class="col-md-6" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-actions/imgs/visit-crop2-700_large.jpg">
+<div class="col-md-1"></div>
+<%= link_to '', actions_read_walk_page_six_path, class: "next-page col-md-2", method: :get %>
+</div>
+    <div class="row">
+        <div class="col-md-5"></div>
+        <button class="col-md-2">visiting</button>
+        <div class="col-md-5"></div>
+    </div>
+</div>
+<audio id="sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-actions/audio/visiting.mp3"></audio>
 
-<button></button>
-
-<audio id="sound" src=""></audio>
-
-<%= link_to '', actions_read_walk_page_six_path, class: "next-page", method: :get %>

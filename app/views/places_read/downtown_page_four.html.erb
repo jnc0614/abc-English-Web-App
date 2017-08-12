@@ -1,9 +1,17 @@
-<%= link_to "", places_read_class_page_three_path, class: "previous-page", method: :get %>
 
-<img id="center-image" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-2/imgs/downtown-crop-700_large.jpg">
+<div class="container-fluid">
+    <div class="row">
+<%= link_to "", places_read_class_page_three_path, class: "previous-page col-md-2", method: :get %>
+<div class="col-md-1"></div>
+<img class="col-md-6" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-2/imgs/downtown-crop-700_large.jpg">
+<div class="col-md-1"></div>
 
-<button></button>
-
-<audio id="sound" src=""></audio>
-
-<%= link_to '', places_read_home_page_five_path, class: "next-page", method: :get %>
+<%= link_to '', places_read_home_page_five_path, class: "next-page col-md-2", method: :get %>
+</div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <button class="col-md-3">downtown</button>
+        <div class="col-md-5"></div>
+    </div>
+</div>
+<audio id="sound" src="https://s3.us-east-2.amazonaws.com/abc-english-learning-assets/book-2/audio/downtown.mp3"></audio>
